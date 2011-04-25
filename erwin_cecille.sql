@@ -1,4 +1,4 @@
--- EF
+-- EFDD
 
 -- phpMyAdmin SQL Dump
 -- version 3.2.4
