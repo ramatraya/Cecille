@@ -11,3 +11,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+
+# cecille conf
+application/config/*.php
+
