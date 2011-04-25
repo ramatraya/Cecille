@@ -1,0 +1,52 @@
+.stream-item-content{
+    border-bottom: solid 1px #ccc;
+}
+.stream-item, .unselectable-stream-item {
+    border-bottom: 1px solid #EBEBEB;
+    clear: both;
+    display: block;
+    min-height: 60px;
+    outline: medium none;
+    position: relative;
+}
+.user-content-medium {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    min-height: 34px;
+    padding: 10px 20px;
+}
+.user-content-medium .user-content-image {
+    display: block;
+    float: left;
+    height: 48px;
+    margin-top: 8px;
+    overflow: hidden;
+    width: 48px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.stream-user-buttons {
+    float: right;
+    padding-left: 1em;
+    position: relative;
+}
+
+.stream-user-buttons .button {
+    margin-left: 2px;
+}
+
+.user-content-medium .user-content-rest {
+    padding-left: 58px;
+}
+.who-to-follow-suggestions-stream .stream-user-buttons div.dismiss, .user-similarities-stream .stream-user-buttons div.dismiss {
+    display: block;
+}
+.stream-user-buttons div.dismiss {
+    display: none;
+    margin: 1px 2px 0 0;
+    text-align: right;
+}
+.main-content, .details-pane {
+    color: #444444;
+}

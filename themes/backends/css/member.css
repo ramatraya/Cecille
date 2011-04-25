@@ -1,0 +1,28 @@
+/* 
+    Document   : member
+    Created on : Feb 5, 2011, 4:06:47 AM
+    Author     : erwin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#profile_block .row{
+    padding:4px;
+    margin:4px;
+}
+#profile_block label{
+    font-size: 1.2em;
+    font-weight: bold;
+    float:left;
+    width:120px;
+}
+

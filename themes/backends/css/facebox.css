@@ -1,0 +1,20 @@
+/* 
+    Document   : facebox
+    Created on : Feb 17, 2011, 4:58:38 PM
+    Author     : webdeveloper
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#facebox input.text,
+#facebox textarea{ width: 96%; padding: 7px; }
+#facebox label{font-weight: bold;display:block;}
+#facebox right{float:right;}
+
+#facebox .errormsg{font-weight: bold;color:red;}
