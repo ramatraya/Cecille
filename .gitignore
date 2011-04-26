@@ -26,6 +26,8 @@ Thumbs.db
 
 
 #cecille
-application/config/*
-
-
+application/config/database.php
+application/config/facebook.php
+application/config/tweet.php
+application/config/app.php
+application/upload/*
