@@ -52,8 +52,6 @@ class Login extends CI_Controller {
             $res = $this->db->get($meta)->row();
             if($res) {
                 $user_twitter = $this->ion_auth->get_user($res->user_id);
-                xdebug($user_twitter);
-                die;
                 $session_data = array(
                     'email' => $user_twitter->email,
                     'id' => $user_twitter->id, //kept for backwards compatibility
